@@ -1,0 +1,8 @@
+
+	var input = document.createElement("input");
+    input.setAttribute("type", "hidden"); 
+    input.setAttribute("name", "grades");
+	input.setAttribute("value", "1.0");
+	const element = document.getElementById("data_form");
+	element.appendChild(input);
+
